@@ -10,7 +10,7 @@ h1 { text-align: center;
     font-size: 40px;
 }
 
-img {
+.Blogphoto {
     border-radius: 50%;
     border-block-color: white;
 }
@@ -134,25 +134,11 @@ button {
         font-size: 20px;}
     #technical2body p {
         margin-top: -10px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    .codesnippet {
+            max-width: 100%;
+            height: auto;
+          }
 
 #sprint2cultural {
     background-color: lemonchiffon;
@@ -175,6 +161,9 @@ button {
 #cultural2body p {
     margin-top: -10px;}
 
+hr {
+    border-top: 5px solid#296958;
+  }
 
  
 
