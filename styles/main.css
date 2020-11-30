@@ -131,7 +131,7 @@ button {
     #sprint2technical h2 {
         font-style: oblique;}
     #technical2body h2 {
-        font-size: 20px;}
+        font-size: 20px;}s
     #technical2body p {
         margin-top: -10px;}
     
@@ -196,7 +196,7 @@ hr {
       }
   
       #sprint3culturalblog {
-        background-color: 
+        background-color: lemonchiffon;
         height: 100%;
         padding-inline-start: 25%;
         width: 70%;
@@ -206,6 +206,7 @@ hr {
         padding-bottom: 20px;
         text-align: left;}  
     #cultural3body {
+        background-color: lemonchiffon;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-style: normal;
         font-size: 15px;}
@@ -215,8 +216,18 @@ hr {
         font-size: 20px;}
     #cultural3body p {
         margin-top: -10px;}
-    
 
+#quoteimage {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+    ol.a {
+            list-style-type: circle;
+        }
+
+
+
+    
 
 
 
