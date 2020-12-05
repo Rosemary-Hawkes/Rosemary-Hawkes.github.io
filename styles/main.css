@@ -226,7 +226,24 @@ hr {
         }
 
 
-
+        #technical4body {
+            background-color: #daeee9;
+            height: 100%;
+            padding-inline-start: 25%;
+            width: 70%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #296958;}
+        #technical4body h1 {
+            padding-bottom: 20px;
+            text-align: left;}  
+        #technical4body h2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: normal;
+            font-size: 15px;}
+        #technical4body p {
+            margin-top: -10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
     
 
 
