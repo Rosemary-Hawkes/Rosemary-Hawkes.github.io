@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link href="https://Rosemary-Hawkes.github.io/styles/main.css" rel="stylesheet" type="text/css">
-        <title>Sprint 2 Technical Blog</title>
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <link href="https://Rosemary-Hawkes.github.io/styles/main.css" rel="stylesheet" type="text/css">
+  <title>Sprint 2 Technical Blog</title>
+</head>
+<body>
+  <div class="container" id="technical2body">
+    <h1>How to use classes and IDs in HTML and CSS</h1>
+    <h3>Sprint 2 Technical Blog: 22 November 2020</h3>
+    <hr>
+    <h2>ID's and classes are different</h2>
+    <p>ID’s and Classes allow us to "label" content in an HTML document so that it can be manipulated and styled.  They are particularly useful where there is a section on the page that has no relevant tag to signify it, for example a footer, or boxes in a sidebar for keeping content in the sidebar separated.</p>  
 
-      <div class="container" id="sprint2technical">
-      <h1>How to use classes and IDs in HTML and CSS</h1>
-      <h3>Sprint 2 Technical Blog: 22 November 2020</h3>
-    <div class="container" id="technical2body">
-      <hr>
-      <h2>ID's and classes are different</h2>
-        <p>ID’s and Classes allow us to "label" content in an HTML document so that it can be manipulated and styled.  They are particularly useful where there is a section on the page that has no relevant tag to signify it, for example a footer, or boxes in a sidebar for keeping content in the sidebar separated.</p>  
+    <p>Classes are not unique but IDs are. The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one. You can use the same class on multiple elements and you can use multiple classes on the same element.</p>
 
-        <p>Classes are not unique but IDs are. The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one. You can use the same class on multiple elements and you can use multiple classes on the same element.</p>
-
-        <img src="DivClassAnimal.png" class="codesnippet" alt="DivClassAnimal">
+    <img src="DivClassAnimal.png" class="codesnippet" alt="DivClassAnimal">
         
-        <h2>An element can have both a class and an ID</h2>
-        <p>An element can have a class or both a class and an ID.  An element can also have an ID without a class.</p>
+    <h2>An element can have both a class and an ID</h2>
+    <p>An element can have a class or both a class and an ID.  An element can also have an ID without a class.</p>
 
-        <img src="Codesnippet4.png" class="codesnippet" alt="Codesnippet4">
+    <img src="Codesnippet4.png" class="codesnippet" alt="Codesnippet4">
             
-        <h2>Styling of classes and IDs</h2>
-        <p>You can have the same HTML element but style and present it differently depending on its class or ID.  These class and ID labels are referenced on the CSS stylesheet so that they can be styled. In CSS, a class selector is a name preceded by a full stop (“.”) and an ID selector is a name preceded by a hash character (“#”).</p>
+    <h2>Styling of classes and IDs</h2>
+    <p>You can have the same HTML element but style and present it differently depending on its class or ID.  These class and ID labels are referenced on the CSS stylesheet so that they can be styled. In CSS, a class selector is a name preceded by a full stop (“.”) and an ID selector is a name preceded by a hash character (“#”).</p>
 
-       <h2>Best practice for naming classes and IDs</h2>
-       <p>When naming classes and IDs describe the context of the element, not where it is   
-           or what it looks like.</p>
+    <h2>Best practice for naming classes and IDs</h2>
+    <p>When naming classes and IDs describe the context of the element, not where it is or what it looks like.</p>
 
-        <img src="ClassProjectIDIntroduction.png" class="codesnippet" alt="ClassProjectID">
+    <img src="ClassProjectIDIntroduction.png" class="codesnippet" alt="ClassProjectID">
 
-        <h2>Styling of multiple objects</h2>
-        <p>Any styling information that needs to be applied to multiple objects on a page should be done with a class. The class name will act as the "label" so that the same set of styling can be applied to each of these classes.</p>
+    <h2>Styling of multiple objects</h2>
+    <p>Any styling information that needs to be applied to multiple objects on a page should be done with a class. The class name will act as the "label" so that the same set of styling can be applied to each of these classes.</p>
 
-        <h2>Reusable information</h2>
-        <p>Information that is reusable should be kept in a class and information that is totally unique should be kept in an ID. If you need slightly different styling on one of the classes you can still share all the other attributes of that class but apply a second class inside that class attribute.</p>
+    <h2>Reusable information</h2>
+    <p>Information that is reusable should be kept in a class and information that is totally unique should be kept in an ID. If you need slightly different styling on one of the classes you can still share all the other attributes of that class but apply a second class inside that class attribute.</p>
 
-        <img src="Codesnippet2.png" class="codesnippet" alt="Codesnippet2">
-        
+    <img src="Codesnippet2.png" class="codesnippet" alt="Codesnippet2">
        
     <h2>Unique ID</h2>
-        <p>Because HTML elements can have both a class and an ID you can apply the class for styling all elements of the same class on the page.  You would use the unique ID for styling specific to that element.</p>
+    <p>Because HTML elements can have both a class and an ID you can apply the class for styling all elements of the same class on the page.  You would use the unique ID for styling specific to that element.</p>
        
-        <p>You can also apply a selector to a specific HTML element by stating the HTML selector first, so p.cat { /* text */ } will only be applied to paragraph elements that have the class “cat”.</p>
-       </div>
-    </div>
+    <p>You can also apply a selector to a specific HTML element by stating the HTML selector first, so p.cat { /* text */ } will only be applied to paragraph elements that have the class “cat”.</p>
+  </div>
+</body>
 </html>
